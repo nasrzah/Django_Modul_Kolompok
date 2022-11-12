@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aboutt</title>
+    <!-- CSS 1 -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+    <!-- CSS BOOTSTRAP -->
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.css' %}"
+</head>
+
+<body>
+    <img id="banner" src= "{% static 'about/img/about.jpg' %}" alt="">
+    <div id="menu">
+        <!-- Menu -->
+        <ul>
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about/" class="">About</a></li>
+            <li><a href="/buku/" class="">Mata Kuliah</a></li>
+            <li><a href="/tamu/" class="">Mahasiswa</a></li>
+        </ul>
+    </div>
+    <!-- CONTAINER BOOTSTRAP -->
+
+    <!-- CONTAINER BOOTSTRAP -->
+    <div class="container">
+        <p></p>
+        <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading">Kelompok 5</h4>
+        <hr>
+        <p>Emilia Santini</p>
+        <p>(211001035)</p>
+        <p>Erlina Juniantari</p>
+        <p>(211001076)</p>
+        <p>Hamzah Nasrulloh</p>
+        <p>(211001117)</p>
+        <p>Rizki</p>
+        <p>(211001113)</p>
+        <p>Rizki Nurhafizd Achmad</p>
+        <p>(211001114)</p>
+        <p>Sedri Sella Jumeni</p>
+        <p>(211001073)</p>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <span class="text-dark">Copyright 2022</span>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- JS BOOTSTRAP-->
+    <script srs="{% static 'vendor/bootstrap/bootstrap.js' %}" type="text/javascripts"></script>
+    <script srs="{% static 'vendor/bootstrap/jquery-3.3.1.slim.min.js' %}" type="text/javascripts"></script>
+    <script srs="{% static 'vendor/bootstrap/popper.min.js' %}" type="text/javascripts"></script>
+</body>
+</html>

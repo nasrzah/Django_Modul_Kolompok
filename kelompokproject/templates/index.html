@@ -1,0 +1,57 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Utama</title>
+    <!-- CSS 1-->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <!-- Akhir dari CSS 1-->
+    <!--CSS BOOTSTRAP-->
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/bootstrap.css' %}">
+</head>
+<body>
+    <!-- Banner-->
+    <img id="banner" src= "{% static 'img/home.jpg' %}" alt="">
+    <div id="menu">
+        <!--Menu-->
+        <ul>
+            <li><a href="/" class="">Home</a></li>
+            <li><a href="/about/" class="">About</a></li>
+            <li><a href="/buku/" class="">Mata Kuliah</a></li>
+            <li><a href="/tamu/" class="">Mahasiswa</a></li>
+        </ul>
+    </div>
+    <!-- CONTAINER BOOTSTRAP-->
+    <div class="container">
+        <br>
+        <div class="jumbotron">
+            <h1 class="display-4">Artificial Intellegence</h1>
+            <p class="lead">Kecerdasan buatan</p>
+            <p> Kecerdasan Buatan (AI) adalah bidang ilmu komputer yang dikhususkan untuk memecahkan masalah kognitif yang umumnya terkait dengan kecerdasan manusia, seperti pembelajaran, pemecahan masalah, dan pengenalan pola.</p>
+            <hr class="my-4">
+            <h2 class="display-4">Machine Learning</h2>
+            <p> Machine Learning adalah nama yang umumnya diterapkan pada sejumlah teknik Bayesian yang digunakan untuk pengenalan dan pembelajaran pola. Pada intinya, machine learning adalah kumpulan algoritma yang dapat mempelajari dari dan membuat prediksi berdasarkan data yang direkam, mengoptimalkan fungsi utilitas yang diberikan dalam ketidakpastian, mengekstrak struktur data tersembunyi, dan menggolongkan data menjadi deskripsi singkat.</p>
+        </div>
+    </div>
+
+    <!-- Container BOOTSTRAP -->
+    
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container">
+<span class="text-dark">Copyright 2022</span>
+</div>
+</footer>
+
+    <!--JS BOOTSTRAP-->
+    <script src="{% static 'vendor/bootstrap/bootstrap.js' %}" type="text/javascripts"></script>
+    <script src="{% static 'vendor/bootstrap/jquery-3.3.1.slim.min.js' %}" type="text/javascripts"></script>
+    <script src="{% static 'vendor/bootstrap/popper.min.js' %}" type="text/javascripts"></script>
+
+
+</body>
+</html>
